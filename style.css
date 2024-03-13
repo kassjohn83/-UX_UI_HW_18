@@ -1,7 +1,7 @@
    
 .header {
   overflow: hidden;
-  background:linear-gradient(90deg, #DCCCFF 0%, #FFCCEB 50%, #FFFBB0 100%);
+  background-color: #DCCCFF;
   padding: 20px 10px;
 }        
       
@@ -29,7 +29,7 @@
 }
 .hero {
   height:75vh;
-  background:linear-gradient(90deg, #DCCCFF 0%, #FFCCEB 50%, #FFFBB0 100%);
+  background-color: #DCCCFF;
   position:relative;
   margin-bottom: 50px;
 }
@@ -79,9 +79,9 @@ justify-content: center;
     margin-right: auto;
   }
 .container {
-  text-align: center;
+  text-align: left;
   padding: 10px 20px;
-  color: purple;
+  color: #97005B;
   font-family: "Poppins",  Helvetica, sans-serif;
   font-weight: bold;
   font-size: large;
@@ -97,18 +97,26 @@ justify-content: center;
   width: 100%;
   text-align: center;
   background-color: #DCCCFF ;
-  padding: 20px 10px;
+  padding: 40px 10px;
   font-family: "Poppins",  Helvetica, sans-serif;
 }
 
 .linkedin{
-  width: 20px;
-height: 18px;
+  width: 30px;
+height: 25px;
 flex-shrink: 0;
 }
 
 .dribbble{
-  width: 20px;
-height: 20px;
+  width: 30px;
+height: 30px;
 flex-shrink: 0;
+}
+
+.footname{
+  color: #97005B;
+  font-family: "Poppins",  Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: large;
+  padding: 10px;
 }
